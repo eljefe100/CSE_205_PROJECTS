@@ -70,9 +70,9 @@ public class Main {
 
         // calculate runs up and runs down for listRunsCount
         while (i < pList.size() - 1) {
-            if (pDir == RUNS_UPS && (pList.get(i) < pList.get(i + 1))) {
+            if (pDir == RUNS_UPS && (pList.get(i) <= pList.get(i + 1))) {
                 k++;
-            } else if (pDir == RUNS_DN && (pList.get(i) > pList.get(i + 1))) {
+            } else if (pDir == RUNS_DN && (pList.get(i) >= pList.get(i + 1))) {
                 k++;
             }
             else {
