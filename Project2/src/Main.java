@@ -3,13 +3,6 @@
 //
 // DESCRIPTION
 // The Main class for Project 2.
-//
-// AUTHOR
-// Kevin R. Burger (burgerk@asu.edu)
-// Computer Science & Engineering
-// School of Computing, Informatics, and Decision Systems Engineering
-// Fulton Schools of Engineering
-// Arizona State University, Tempe, AZ 85287-8809
 //**************************************************************************************************
 import java.io.File;
 import java.io.FileNotFoundException;
