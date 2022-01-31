@@ -5,13 +5,6 @@
 // Student is an abstract class and is the superclass for the OnCampusStudent and OnlineStudent
 // classes. Remember that in a class hierarchy, the superclass declares data and methods that are
 // common to all types of students.
-//
-// AUTHOR
-// Kevin R. Burger (burgerk@asu.edu)
-// Computer Science & Engineering
-// School of Computing, Informatics, and Decision Systems Engineering
-// Fulton Schools of Engineering
-// Arizona State University, Tempe, AZ 85287-8809
 //**************************************************************************************************
 public abstract class Student implements Comparable<Student> {
 
