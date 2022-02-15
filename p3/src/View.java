@@ -327,6 +327,7 @@ public class View extends JFrame implements ActionListener {
      * DO NOT HARCODE THE NUMBER OF HOMEWORKS AND EXAMS
      */
     private void displayStudent(Student pStudent){
+        mStudentName.setText(pStudent.getFullName());
        for(int i = 0; i <= Main.getNumHomeworks()-1; i++){
            int hw = pStudent.getHomework(i);
            String hwStr = Integer.toString(hw);
